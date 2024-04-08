@@ -11,5 +11,10 @@ public class Controller
 	{
 		
 	}
+	
+	public static void handleError(Exception e)
+	{
+		System.out.println("The error " + e + "\n has occured");
+	}
 
 }
